@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agentix Landing Page</title>
+  <style>
+    /* Basic Reset and Styling */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #f8f8f8;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    header a {
+      text-decoration: none;
+      color: inherit;
+    }
+    /* Logo Styling */
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    /* Navigation Styling */
+    nav {
+      display: flex;
+      align-items: center;
+    }
+    nav a {
+      margin-right: 20px;
+      font-size: 16px;
+      color: #333;
+    }
+    nav a:last-child {
+      margin-right: 0;
+    }
+    /* Book a Demo Button Styling */
+    .btn-demo {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+    .btn-demo:hover {
+      background-color: #0056b3;
+    }
+    /* Main Content Styling */
+    main {
+      padding: 60px 40px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 20px;
+      font-size: 36px;
+    }
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Logo links back to landing page -->
+    <a href="index.html" class="logo">Agentix</a>
+    <nav>
+      <!-- Team page link -->
+      <a href="team.html">Team</a>
+      <!-- Book a Demo button -->
+      <a href="book-a-demo.html" class="btn-demo">Book a Demo</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Welcome to Agentix</h1>
+    <p>Your innovative solution for cutting-edge technology.</p>
+  </main>
+</body>
+</html>
