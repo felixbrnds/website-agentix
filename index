@@ -56,8 +56,8 @@
     .btn-demo:hover {
       background-color: #0056b3;
     }
-    /* Main Content Styling */
-    main {
+    /* index Content Styling */
+    index {
       padding: 60px 40px;
       text-align: center;
     }
@@ -81,9 +81,9 @@
       <a href="book-a-demo.html" class="btn-demo">Book a Demo</a>
     </nav>
   </header>
-  <main>
+  <index>
     <h1>Welcome to Agentix</h1>
     <p>Your innovative solution for cutting-edge technology.</p>
-  </main>
+  </index>
 </body>
 </html>
